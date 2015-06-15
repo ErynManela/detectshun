@@ -31,6 +31,10 @@ Browser Detection
 var browserName = detectshun.browser().name; // i.e. "Chrome"
 var browserVersion = detectshun.browser().version; // i.e. "43.0"
 var browserGrade = detectshun.browser().grade; // i.e. "a"
+var browserIsMobile = detectshun.browser().mobile; // i.e. true
+var browserIsTablet = detectshun.browser().tablet; // i.e. false
+var browserIsiOS = detectshun.browser().ios; // i.e. true
+var browserIsAndroid = detectshun.browser().android; // i.e. false
 ```
 
 
