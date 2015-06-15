@@ -38,7 +38,11 @@ var detectshun = {
         return {
             name: bowser.name,
             version: bowser.version,
-            grade: grade
+            grade: grade,
+            mobile: bowser.mobile || false,
+            tablet: bowser.tablet || false,
+            ios: bowser.ios || false,
+            android: bowser.android || false
         };
     }
 };
