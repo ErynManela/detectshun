@@ -38,4 +38,4 @@ Attribution
 ---
 
 The browser detection portion of this wrapper is just a minified copy of bowser (https://github.com/ded/bowser). I will most likely clone bowser right into this repo as a dependency instead of the hackish way I am including it now (some day).
->>>>>>> 0f3f4ddb78f5e9889d5e3a7cdcc6870f6260e569
+
