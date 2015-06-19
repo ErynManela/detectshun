@@ -35,6 +35,7 @@ var browserIsMobile = detectshun.browser().mobile; // i.e. true
 var browserIsTablet = detectshun.browser().tablet; // i.e. false
 var browserIsiOS = detectshun.browser().ios; // i.e. true
 var browserIsAndroid = detectshun.browser().android; // i.e. false
+var bowser = detectshun.browser().bowser; // Get the regular old bowser object
 ```
 
 
