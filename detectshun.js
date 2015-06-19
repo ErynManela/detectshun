@@ -42,7 +42,8 @@ var detectshun = {
             mobile: bowser.mobile || false,
             tablet: bowser.tablet || false,
             ios: bowser.ios || false,
-            android: bowser.android || false
+            android: bowser.android || false,
+            bowser: bowser
         };
     }
 };
