@@ -8,7 +8,7 @@
   "dependencies": {
     "bowser":"~1.6.0"
   },
-  "optionalDependencies": {
+  "peerDependencies": {
     "modernizr":"~3.3.1"
   }
 }
