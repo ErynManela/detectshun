@@ -1,5 +1,6 @@
 # detectshun
 Simple javascript feature &amp; browser detection wrapper. Relies on ded/Bowser for detection support and optionally on Modernizr for feature detection support.
+Forked from https://github.com/dylantmarsh/detectshun
 Feature Detection
 ---
 
