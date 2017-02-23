@@ -1,6 +1,5 @@
 # detectshun
-Simple javascript feature &amp; browser detection wrapper. Relies on Modernizr for feature detection support.
-
+Simple javascript feature &amp; browser detection wrapper. Relies on ded/Bowser for detection support and optionally on Modernizr for feature detection support.
 Feature Detection
 ---
 
@@ -38,9 +37,4 @@ var browserIsAndroid = detectshun.browser().android; // i.e. false
 var bowser = detectshun.browser().bowser; // Get the regular old bowser object
 ```
 
-
-Attribution
----
-
-The browser detection portion of this wrapper is just a minified copy of bowser (https://github.com/ded/bowser). I will most likely clone bowser right into this repo as a dependency instead of the hackish way I am including it now (some day).
 

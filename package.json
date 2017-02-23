@@ -1,0 +1,14 @@
+{
+  "name":"detectshun",
+  "description": "Simple javascript feature &amp; browser detection wrapper. Optionally relies on Modernizr for feature detection support.",
+  "version":"0.2.0",
+  "license": {"type":"MIT", "url": "http://www.opensource.org/licenses/mit-license.php"},
+  "author":{"name":"Dylan Marsh", "url":"https://github.com/dylantmarsh"},
+  "contributors":[{"name":"Aaron Manela", "url":"https://github.com/aaronmanela"}],
+  "dependencies": {
+    "bowser":"~1.6.0"
+  },
+  "peerDependencies": {
+    "modernizr":"~3.3.1"
+  }
+}
